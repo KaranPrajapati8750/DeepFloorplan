@@ -37,7 +37,7 @@ def ind2rgb(ind_im, color_map=floorplan_map):
 	for i, rgb in color_map.iteritems():
 		rgb_im[(ind_im==i)] = rgb
 
-	return rgb_im
+	return rgb_imj
 
 def main(args):
 	# load input
